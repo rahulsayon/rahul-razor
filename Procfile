@@ -1,2 +1,1 @@
-
-web: gunicorn rozorpay_secound.wsgi --log=file
+web: gunicorn razor.wsgi --log-file -
